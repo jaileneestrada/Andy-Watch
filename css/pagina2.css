@@ -1,0 +1,45 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:500px 999px ;
+    grid-template-rows:250px 100px 900px 100px ;
+    grid-template-areas: 
+    'enc enc enc'
+    'enl enl enl'
+    'mis vis fot'
+    'pie pie pie'
+    ;
+}
+header{
+    background-color: dodgerblue;
+    grid-area: enc;
+}
+section{
+    background-color: cornflowerblue;
+    grid-area: enl;
+    text-align: center;
+}
+nav{
+    background-color: lightblue;
+    grid-area: mis;
+    text-align: center;
+    text-decoration-color: aliceblue;
+}
+aside{
+    background-color: deepskyblue;
+    grid-area: vis;
+    text-align: center;
+}
+    
+main{
+    background-color: royalblue;
+    grid-area: fot;
+}
+footer{
+    background-color: slateblue;
+    grid-area: pie;
+    text-align: center;
+}
+img{
+    width: 2222px;
+    height:550px ;
+}

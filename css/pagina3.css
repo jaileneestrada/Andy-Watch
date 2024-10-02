@@ -1,0 +1,41 @@
+.contenedor{
+    display: grid;
+    grid-template-columns:500px 999px ;
+    grid-template-rows:250px 100px 660px 80px ;
+    grid-template-areas:
+    'enc enc enc'
+    'enl enl enl' 
+    'dia fod for'
+    'pie pie pie'
+    ;
+}
+header{
+    background-color: aquamarine;
+    grid-area: enc;
+}
+section{
+    background-color: aqua;
+    grid-area: enl;
+    text-align: center;
+}
+nav{
+    background-color: darkturquoise;
+    grid-area: dia ;
+}
+aside{
+    background-color: mediumturquoise;
+    grid-area: fod;
+}
+main{
+    background-color: paleturquoise;
+    grid-area: for;
+}
+footer{
+    background-color: turquoise;
+    grid-area: pie;
+    text-align: center;
+}
+img{
+    width: 2222px;
+    height: 550px;
+}
